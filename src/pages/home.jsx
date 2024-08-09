@@ -1,5 +1,6 @@
 import metadata from "../common/metadata";
 import { Project } from "../components/projects";
+import wajahTampan from "../assets/img/fotoganteng.png";
 
 function HomePage() {
   return (
@@ -22,7 +23,7 @@ function HomePage() {
         >
           <div className="absolute left-1/2 top-1/2 -z-10 h-12 w-12 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-primary-700"></div>
           <img
-            src="src/assets/img/fotoganteng.png"
+            src={wajahTampan}
             className="w-80"
             style={{
               maskImage:
